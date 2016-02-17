@@ -78,5 +78,23 @@
       "name": "Max",
       "processed": "False"
     }
+  },
+  {
+    "pk": 1,
+    "model": "auth.user",
+    "fields": {
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "is_active": true,
+      "is_superuser": true,
+      "is_staff": true,
+      "last_login": "2010-10-10T06:44:30.276Z",
+      "groups": [],
+      "user_permissions": [],
+      "password": "pbkdf2_sha256$12000$DEhlmXfGIaB1$NOq4uPi6PSOT5X+CDSG/R4Zyuyuz4hY0qmyr0A+cFTM=",
+      "email": "admin@admin.admin",
+      "date_joined": "2010-10-10T06:44:30.276Z"
+    }
   }
 ]

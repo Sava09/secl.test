@@ -19,7 +19,8 @@ def index(request):
 
 def process(request, list_object_id):
     try:
-        process_obj = ListObject.objects.get(id=list_object_id, processed=False)
+        process_obj = ListObject.objects.get(id=list_object_id,
+                                             processed=False)
         if request.GET:
             if request.GET.get('processed') == 'true':
                 process_obj.processed = True

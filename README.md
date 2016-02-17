@@ -1,4 +1,4 @@
-### use instractions below
+### use instructions below
 >sudo -s -H 
 
 now you should enter root password (only once)

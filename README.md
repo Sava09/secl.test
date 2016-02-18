@@ -4,6 +4,9 @@
 now you should enter root password (only once)
 
 ######install python
+
+>>>apt-get install --reinstall ca-certificates
+
 >add-apt-repository ppa:fkrull/deadsnakes
 
 >apt-get update
